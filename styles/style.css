@@ -10,12 +10,11 @@ body{
 .container{
     width: 100%;
     display: flex;
-    justify-content: center;
     margin-bottom: 50px;
     justify-content: space-between;
 }
 /*---------------------
-Top banner styles start
+Header styles start
 ----------------------*/
 header{
     background: #2D25A0;
@@ -61,7 +60,7 @@ header{
     margin: 50px 50px 0px 0px;
 }
 /*---------------------
-Top banner styles end
+Header styles end
 ----------------------*/
 
 /*-------------------
@@ -139,3 +138,93 @@ footer{
  /*---------------------
  footer styles end
  ---------------------*/
+
+ /*----------------
+ media query (mobile) start
+ ------------------ */
+@media only screen and (max-width:667px) {
+
+    .container{
+        width: 330px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .banner-title{
+        width: 278px;
+        height: 138px;
+        font-size: 36px;
+        margin-left: 20px;
+    }
+    .button-arrow{
+        width:30%;
+        margin-left: 20px;
+    }
+    .image img{
+        width: 320px;
+        height: 245px;
+        margin-left: 20px;
+    }
+    .blog-highlight{
+        justify-content: flex-start;
+    }
+    .players-des{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .player{
+        width: 330px;
+    }
+    .highlighter{
+        margin-left: 20px;
+    }
+    .logo img{
+        width: 215px;
+    }
+    .social-media, .fa-instagram, .fa-linkedin-in, .fa-youtube, .fa-whatsapp{
+        margin-left: 10px;
+    }
+    .copyright {
+        margin: 10px 0px 0px 10px;
+    }
+    
+}
+ /*----------------
+ media query (mobile) end
+ ------------------ */
+
+ /*----------------
+ media query (i-pad) start
+ ------------------ */
+ @media only screen and (min-width:668px) and (max-width:992px) {
+ .container{
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.image img{
+    width: 670px;
+    height: 510px;;
+    margin: 50px 50px 10px 20px;
+}
+.blog-highlight{
+    margin-bottom: 10px;
+}
+.players-des{
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 15px;
+    grid-row-gap: 20px;
+}
+.player{
+    width: 345px;
+}
+.highlighter{
+    margin: 0px 0px 20px 50px;
+}
+.logo img {
+    width: 410px;
+}
+}
+ /*----------------
+ media query (i-pad) end
+ ------------------ */
