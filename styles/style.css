@@ -1,0 +1,50 @@
+/* font poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*---------------------
+Top banner styles start
+----------------------*/
+.top-banner{
+width: 100%;
+display: flex;
+justify-content: center;
+background: #2D25A0;
+padding: 50px;
+}
+.banner{
+ margin: 30px;
+}
+.banner-title{
+  width: 480px;
+  height: 230px;
+  margin-right: 100px;
+  color: white;
+  font-size: 64px;
+}
+.button-arrow{
+    width: 25%;
+    padding: 10px 24px; 
+    background: #E02C6D;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    margin-right: 5px;
+} 
+.fa-arrow-right{
+    color: white;
+}
+
+.image img{
+    width: 550px;
+    height: 440px;
+    margin: 50px 50px 0px 0px;
+}
+/*---------------------
+Top banner styles end
+----------------------*/
